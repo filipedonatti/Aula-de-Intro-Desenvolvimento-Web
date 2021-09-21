@@ -1,14 +1,18 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
 <style>
 
+
 header {
-    align-items: center;
+    width: 100%;
     border: solid;
     border-width: 1px;
     border-color: black;
@@ -23,63 +27,70 @@ header {
 
 #leftnav    {
     float: left;
-    width: 20%;
-    border: solid;
-    border-width: 1px;
-    border-color: black;
+    width: 10%;
+
+}
+
+#merch      {
+    text-align: center;
+    padding: 25px;
+
+}
+
+#buttons     {
+    width: 100%;
+    padding-left: 600px;
+}
+
+#tabmerch       {
+    padding-left: 70px;
 
 }
 
 #main   {
+    font-family: 'Comic Neue', cursive;
     text-align: justify;
+    font-weight: bolder;
     width: 60%;
-    margin-left: 20%;
-    border: solid;
-    border-width: 1px;
-    border-color: black;
-    }
+    margin-left: 10%;
+
+}
+
 
 #mainArticle    {
     padding: 20px;
+    
 }
 
 button  {
     background-color: cornsilk;
     margin: 1px;
+    margin-left: 30px;
     border-radius: 2px;
-    padding: 2px;
+    padding: 5px;
 }
 
-form    {
-    width: 50%;
-    margin: 1px;
-    border: solid;
-    border-width: 1px;
-    border-color: black;
-
-}
 aside   {
-
-    float: right;
-    margin: 1px;
-    width: 20%;
-    border: solid;
-    border-width: 1px;
-    border-color: black;
     text-align: center;
+    float: right;
+    width: 20%;
 
 }
 
-#Recommended        {
-    padding: 1px;
-}
 
 footer  {
     clear: both;
-    margin: 1px;
     border: solid;
     border-width: 1px;
     border-color: black;
+}
+
+
+body {
+  background-image: url("copydunder.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
 }
 
 </style>
@@ -88,83 +99,97 @@ footer  {
 <body>
 
     <header id="header">
-      <a href="/" title="Go to home page">
         <button id="logobutton">Logo</button>
       </a>
-      <nav>
+      <nav id="buttons">
             <button>Home</button>
-            <button>School</button>
+            <button>Dream Team</button>
             <button>Office</button>
-            <button>Park</button>
+            <button>Why We Do Not Need An HR</button>
       </nav>
       <form role="search">
         <label>
           <span>Search</span>
-          <input type="search"/>
+          <input type="search" placeholder="Where Is Miachel Now?"/>
         </label>
         <button type="submit">Submit</button>
       </form>
     </header>
   
     <nav id="leftnav">
+        <h3>Gallery</h3>
       <ul>
-        <li><a href="#">Item 1</a></li>
-        <li><a href="#">Item 2</a></li>
-        <li><a href="#">Item 3</a></li>
-        <li><a href="#">Item 4</a></li>
-        <li><a href="#">Item 5</a></li>
+            <li><img src="mboss.jpg" width="60px" height="60px"></li><br>
+            <li><img src="bestboss.jpg" width="60px" height="60px"></li><br>
+            <li><img src="mhat.jpg" width="60px" height="60px"></li><br>
+            <li><img src="mhat.jpg" width="60px" height="60px"></li><br>
+            <li><img src="xmasjump.gif" width="60px" height="60px"></li>
       </ul>
     </nav>
       
     <aside>
-        <section>
-          <h2 id="share">Share</h2>
-          <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Email</a></li>
+            <h2 id="share">Share</h2>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Email</a></li>
+            </ul>
+            <h2 id="Recommended">Recommended</h2>
+            <ul>
+                <li>
+                    <article>
+                        <h3 id="tots"><a href="#">Scott's Tots</a></h3>
+                </article>
+                </li>
+                <li>
+                    <article>
+                        <h3><a href="#">Dunder Mifflin</a></h3>
+                </article>
+                </li>
+                <li>
+                <article>
+                        <h3><a href="#">Threat Level: Midnight</a></h3>
+                </article>
+                </li>
           </ul>
-        </section>
-        <section>
-          <h2 id="Recommended">Recommended</h2>
-          <ul>
-            <li>
-              <article>
-                <h3><a href="#">Related article</a></h3>
-              </article>
-            </li>
-            <li>
-              <article>
-                <h3><a href="#">Related article</a></h3>
-              </article>
-            </li>
-          </ul>
-        </section>
-    </aside>  
-  
-    <section id="main">
-      <article id="mainArticle">
-        <h1>Main article heading</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae sunt igitur communia vobis cum antiquis, iis sic utamur quasi concessis; Nihil acciderat ei, quod nollet, nisi quod anulum, quo delectabatur, in mari abiecerat. Unum est sine dolore esse, alterum cum voluptate. Laboro autem non sine causa; Theophrasti igitur, inquit, tibi liber ille placet de beata vita? Nihil opus est exemplis hoc facere longius. Duo Reges constructio interrete. Graecum enim hunc versum nostis omnes Suavis laborum est praeteritorum memoria. Haec et tu ita posuisti, et verba vestra sunt.</p>
-  
-        <h2>Article secondary heading</h2>
-        <p>Nos commodius agimus. A mene tu? Tantum dico, magis fuisse vestrum agere Epicuri diem natalem, quam illius testamento cavere ut ageretur. Tenesne igitur, inquam, Hieronymus Rhodius quid dicat esse summum bonum, quo putet omnia referri oportere? Nihilo beatiorem esse Metellum quam Regulum. Sed quanta sit alias, nunc tantum possitne esse tanta. Philosophi autem in suis lectulis plerumque moriuntur. Esse enim, nisi eris, non potes.</p>
-        <p>Sunt enim quasi prima elementa naturae, quibus ubertas orationis adhiberi vix potest, nec equidem eam cogito consectari. Id Sextilius factum negabat. Quorum sine causa fieri nihil putandum est. Quae autem natura suae primae institutionis oblita est?</p>
-      </article>
-    </section>
-
-    <footer>
-        <table>
+          <nav id="merch">
+          <table id="tabmerch">
             <tbody>
+                <tr><h2><a href="#">Buy Our Merch!</h2></a>
+                    <td><img src="dmerchg.png" height="50px" width="50px" alt="Green Sweater"></td>
+                    <td></td>
+                    <td><img src="dmerchgr.png" height="50px" width="50px"></td>
+                </tr>
+
                 <tr>
-                    <td><a href="#">Item 1</a></td>
-                    <td><a href="#">Item 2</a></td>
-                    <td><a href="#">Item 3</a></td>
-                    <td><a href="#">Item 4</a></td>
-                    <td><a href="#">Item 5</a></td>
+                    <td><img src="dmerchb.png" height="50px" width="50px"></td>
+                    <td></td>
+                    <td><img src="dmerchr.png" height="50px" width="50px"></td>
                 </tr>
             </tbody>
         </table>
+        </nav>
+    </aside>  
+  
+    <section id="main">
+    
+      <article id="mainArticle">
+        <h1>Michael Scott's Paper Company Goes Public </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae sunt igitur communia vobis cum antiquis, iis sic utamur quasi concessis; Nihil acciderat ei, quod nollet, nisi quod anulum, quo delectabatur, in mari abiecerat. Unum est sine dolore esse, alterum cum voluptate.<br><br> Laboro autem non sine causa; Theophrasti igitur, inquit, tibi liber ille placet de beata vita? Nihil opus est exemplis hoc facere longius. Duo Reges constructio interrete. Graecum enim hunc versum nostis omnes Suavis laborum est praeteritorum memoria. Haec et tu ita posuisti, et verba vestra sunt.</p>
+
+        <h2>MSP Stock To the Moon 🥑!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus repellendus excepturi sunt ipsum. Eum aperiam quidem accusamus quia eaque exercitationem et quos dicta consequuntur unde, soluta saepe ducimus mollitia animi quae commodi fugiat tempora id ipsa! <br><br>Earum quidem laudantium aliquid. Delectus dicta nemo temporibus fugiat autem harum quaerat deleniti cumque laborum obcaecati aliquam sunt iste quo perspiciatis veniam, aspernatur cum. Modi, perferendis suscipit, non sed eaque ex corrupti iusto ipsa, iure minima aut deleniti aliquam facilis tenetur voluptatum. Omnis nesciunt, alias nulla vitae eligendi placeat quidem neque, officia unde quo repudiandae rem impedit? Harum, provident dolorum dolores cupiditate tenetur vel.
+        Nos commodius agimus. <br><br>A mene tu? Tantum dico, magis fuisse vestrum agere Epicuri diem natalem, quam illius testamento cavere ut ageretur. <br>
+        Tenesne igitur, inquam, Hieronymus Rhodius quid dicat esse summum bonum, quo putet omnia referri oportere?<br>
+        Nihilo beatiorem esse Metellum quam Regulum. Sed quanta sit alias, nunc tantum possitne esse tanta. Philosophi autem in suis lectulis plerumque moriuntur. Esse enim, nisi eris, non potes.</p>
+        <p>Sunt enim quasi prima elementa naturae, quibus ubertas orationis adhiberi vix potest, nec equidem eam cogito consectari. Id Sextilius factum negabat. Quorum sine causa fieri nihil putandum est. Quae autem natura suae primae institutionis oblita est?</p>
+
+    </article><br><br>
+    
+    </section>
+
+    <footer>
+        2021 Michael Scott's Paper Company© <a href="#"> ☞ Contact Michael Directly In One Of His Business Cellphones</a>  <a href="#"> ☞ Book Michael As Santa Claus For Your Children's Birthday Party</a>
     </footer>
   
   </body>
