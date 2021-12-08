@@ -1,0 +1,66 @@
+  Prof. Cristiano Garcia Nome: Filipe Donatti
+Data: 20/08/2021
+Introdução ao Desenvolvimento Web Atividade 1
+Orientações: faça uma cópia deste documento em Arquivo > Fazer uma cópia. Responda na sua cópia. Quando terminar, faça download em PDF e envie através da Atividade correspondente no SIGAA.
+1) Pesquise por 5 tags HTML não vistas em aula e explique cada uma delas. (utilize fontes confiáveis)
+Resposta:
+<ol></ol>, <ul></ul>, <li></li>; Essas tags criam listas de itens, ordenadas (ol) ou desordenadas (ul), podem ser utilizadas para declarar listas de supermercado, localizações, afazeres, entre outros.
+<table></table>, <tr></tr>, <th></th>, <td></td>; Tags para criar tabelas com linhas e colunas, usadas, em alguns casos, para informar itinerários, preços, entre outros.
+<img></img> Utilizadas para incluir o link de alguma imagem.
+<a></a> Utilizadas para criar um hyperlink na página. (Chamada de anchor tag)
+<form></form>; Utilizada para criar um formulário que repassa dados aplicados por um usuário a um url especificado. Pode conter check boxes, espaços para inserção de texto, entre outros.
+<input></input>; Para inserir controles na aplicação de dados de um usuário, essa tag é utilizada dentro de um formulário.
+2) Qual a anatomia básica de uma página HTML?
+ Resposta:
+<!DOCTYPE html> <html lang="en"> <head>
+
+ <title></title> </head>
+<body>
+</body> </html>
+
+ 3) Faça a estrutura (apenas da parte textual) desta notícia no HTML. Resposta:
+ 14:40
+<!DOCTYPE html> <html lang="en"> <head>
+<title>Portal do IFSC - Notícia Aberta</title> </head>
+<body>
+<h1>
+IFSC renova acordos com instituições estrangeiras </h1>
+<h2>
+INTERNACIONAL Data de Publicação: 12 ago 2021 14:09 Data de Atualização: 16 ago 2021
+</h2>
+<p>
+O IFSC renovou suas parcerias com o Instituto Politécnico do Porto (<a
+href="https://www.ipp.pt/" target="_self" id="yui_patched_v3_11_0_1_1629310320209_270">IPP</a>), de Portugal, e com a Universidad de Santiago de Chile (Usach). Com a renovação, o acordo com o IPP segue vigente até agosto de 2026 e com a Usach, até agosto de 2024. As instituições estrangeiras são parceiras em programas de intercâmbio e cooperações técnicas.
+</p>
+<p>
+Para a assessora de Assuntos Estratégicos e Internacionais do IFSC, Fernanda Emanuella Ferreira, a renovação dos acordos confirma uma parceria que ainda perdura. “Significa que permanecemos caminhando lado a lado com as instituições parceiras, olhando para o futuro e desenhando novos projetos para a comunidade do IFSC e a sociedade, além de continuarmos colhendo frutos dos projetos anteriores”, destaca.
+</p>
+<p>
+O primeiro protocolo de intenções com o IPP foi feito em 2009 quando a instituição portuguesa
+passou a receber alunos do IFSC pelo Programa de Cooperação Internacional para estudantes do IFSC (Propicie). Desde então, 144 estudantes do IFSC já tiveram a oportunidade de realizar projetos de pesquisa no IPP pelo Propicie.
+</p>
+<p>
+Em 2015, o IFSC assinou o acordo para Dupla Titulação com o IPP, que permite que alunos do IFSC passem um ano estudando em Portugal e, ao concluir o curso, obtenham a titulação de engenheiro no Brasil e mestre em Portugal. Ao todo, 15 alunos do curso de Engenharia Elétrica do Câmpus Florianópolis e três alunos do curso de Engenharia Mecânica do Câmpus Lages já participaram do programa de Dupla Titulação com o IPP.
+</p>
+<p>
+Com a Usach, o acordo foi firmado em 2019 para o desenvolvimento de tecnologias em Smart Grids, um projeto desenvolvido pelo Câmpus Florianópolis. No convênio, são dois coordenadores: o professor Ismael Soto, pela Usach, e o professor Rafael Nilson Rodrigues, pelo IFSC. Com a renovação, os trabalhos em parceria seguem em andamento e a intenção é ampliar as possibilidades, sobretudo na participação de docentes e discentes de maneira intercambiada nos respectivos programas de pós-graduação, além de facilitar o intercâmbio de graduação para alunos.
+</p>
+<p>
+O IFSC possui acordos com cerca de 15 instituições estrangeiras, além de mais de 40 memorandos de entendimento ou protocolos de intenções. A listagem dessas parcerias está disponível na página de
+Intercâmbio do IFSC
+</p>
+<h3>Intercâmbios no formato virtual</h3>
+<p>
+No passado, os programas de intercâmbio do IFSC foram suspensos em função da pandemia. No entanto, os estudantes estão tendo a oportunidade de participar de intercâmbios virtuais com a Universidade de Deusto, na Espanha, e com o Instituto Politécnico de Setúbal em Portugal.
+</p>
+<p> Por Marcela Lin | Jornalista do IFSC
+</p>
+
+ </body> </html>
+4) Descreva seus gostos e como você leva a vida na cidade em que você mora. Seja o mais detalhista possível (Opcional: A resposta será utilizada para elaboração de atividades no decorrer da disciplina).
+Gostos:
+Acampar/Trilha; Conhecer um lugar novo, acender fogueira, dormir na barraca. Estudar; Cursos/boot camps instrutivos como Udemy, aulas oferecidas pela EDX Ler; Ficção (Sci Fi, Fantasia, Horror) Ensaios, Filosofia
+Esportes;
+Escrever;
+Mudando de moradia constantemente, na cidade de Florianópolis, buscando novas ofertas de emprego, estudando diariamente, lutando para manter uma rotina de atividades físicas--academia e exercícios ao ar livre e corridas/caminhadas com amigos--acampando ou viajando nos finais de semana, desdenhando o risco de contaminação do COVID.
+Capriche: se lembre que entregar mais do que o pedido pelas questões é requisito para a atividade valer 10.
