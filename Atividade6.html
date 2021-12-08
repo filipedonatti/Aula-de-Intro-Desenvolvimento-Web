@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexboxLayout</title>
+    <style>
+    
+    #bigdiv {
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+        background-image: url("https://nypost.com/wp-content/uploads/sites/2/2018/12/95-percent-earths-atmosphere.jpg?quality=80&strip=all");
+    }
+    
+        
+    #hmajor {
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        padding: 5px;
+    }
+    
+    .hdivs {
+        
+        background-color: grey;
+        padding: 2px;
+        margin: 2px;
+        flex: 1;
+    }
+    
+    .adivs  {
+        border: solid;
+        margin: 2px;
+        flex: 1;
+    }
+    
+    .fdivs  {
+                border: solid;
+        margin: 2px;
+        flex: 1;
+    }
+    
+        
+    body, html  {
+        height: 100%;
+
+    }
+    
+    
+    header  {   
+        flex: 1.2;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        opacity: 50%;
+    }
+    
+    
+    aside   {
+        text-align: center;
+        background-color: brown;
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+    }
+    
+    article {       
+        
+        background-color: grey;
+
+        flex: 8;
+        opacity: 70%;
+    }
+    
+    section {
+        text-align: center;
+        display: flex;
+        flex: 6;
+        opacity: 50%;
+    
+    }
+    
+    footer  {
+        text-align: right;
+        font-size:  12px;
+        border: solid;
+        background-color: pink;
+        opacity: 50%;
+        display: flex;
+        flex: 1;
+        
+    }
+        
+    </style>
+    
+</head>
+
+<body>
+    
+    <div id="bigdiv">
+        
+    <header>
+        <nav id="hmajor">
+        <div class="hdivs"><p><a href="#">Localizações</a></p></div>
+        
+        <div class="hdivs"><p><a href="#">Missão</a></p></div>
+        
+        <div class="hdivs"><p><a href="#">Origem</a></p></div>
+        
+        <div class="hdivs"><p><a href="#">Líderes</a></p></div>
+        
+        <div class="hdivs"><p><a href="#">Destino</a></p></div>
+        
+        </nav>
+        
+    </header>
+
+    <section>
+
+        <aside>
+            <div class="adivs"><p><a href="#">Link Relacionado</a></p></div>
+                    <div class="adivs"><p><a href="#">Notícias boas</a></p></div>
+                            <div class="adivs"><p><a href="#">Notícias Ruins</a></p></div>
+            
+        </aside>
+
+        <article>
+            <p>          
+                    <h1>Quem Somos nós?</h1>
+           
+                     <h2>Somos Os Filhos de Samuel. </h2>  <br>
+                     
+                     Nossa missão na terra é manipular todo mundo. <br>
+           
+                    Quem manda na minha terra sou euzis! Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.
+
+Atirei o pau no gatis, per gatis num morreus. Quem num gosta di mé, boa gentis num é. Mé faiz elementum girarzis, nisi eros vermeio. Manduma pindureta quium dia nois paga.
+
+Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Sapien in monti palavris qui num significa nadis i pareci latim. Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Viva Forevis aptent taciti sociosqu ad litora torquent.
+</p>
+        </article>
+
+    </section>
+
+    <footer>
+        <p><br>Todas as informações disponibilizadas nesse website são verdadeiras e incontestáveis ©</p>
+    </footer>
+    
+    </div>
+</body>
+</html>
