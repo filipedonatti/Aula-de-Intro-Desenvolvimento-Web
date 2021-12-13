@@ -1,0 +1,26 @@
+
+Prof. Cristiano Garcia	
+IDW 2021.2   						Data: __/__/____
+Nome: Filipe Donatti
+
+> Descreva as diferenças entre CSS inline, interno e externo.
+
+Resposta:	
+	O estilo interno estiliza uma única página. Incorporado na seção <head> em um documento HTML utilizando as tags <style></style>. Devido ao tempo consumido para atribuir estilos, esse método não é recomendado para todas as ocasiões. Embora tenha a vantagem de agregar estilos com apenas um arquivo, estilos internos podem aumentar o tamanho da página e consequentemente o tempo de carregamento.
+	O inline é usado em elementos específicos, adicionando o atributo styles sem usar seletores (ex: <body style=”font-weight: 900;”>). Gerenciar o site dessa maneira pode ajudar quando não há acesso aos arquivos CSS, ou a intenção é experimentar um estilo, devido ao processo simples sem precisar fazer uploads ou criar novos documentos. Aplicar esse método em diversos elementos pode deturpar a coesão e fluência do código, além de resultar em uma página lenta.
+	CSS externo supera os outros métodos em organização e fluência, por conta de ser um arquivo separado. O usuário cria um documento próprio, (.css) e o linka a um ou mais arquivos HTML--isso significa que há liberdade para atribuir o mesmo estilo em diversas páginas.
+
+> Descreva as diferenças entre os seletores CSS: classe, elemento e id.
+
+
+Resposta: 
+	ID é um seletor para estilos destinados a um objeto específico. Classe implementa estilos a mais de um objeto. Elemento é uma referência para incorporar estilos em uma das partes que compõem a estrutura da página, ao contrário de ID e Classe, o usuário pode aplicar propriedades ao título, corpo ou qualquer outra parte do código, copiando somente o nome da parte desejada, como por exemplo o h1, título, e os demais.
+
+> Pesquise 5 propriedades CSS e explique o funcionamento delas (recomendado utilizar as documentações já apresentadas: MDN e W3Schools).
+
+
+	Margin: Permite manipular o tamanho, cor e outros atributos da margem de espaço ocupado por um elemento na página;
+	Animation: tags de animação, como animation-delay, possibilitam alterações na reprodução de animações;
+	Border: Usada para aplicar edições diretamente na borda de um objeto implementado na página, seja tal uma ilustração ou caixa de texto.
+	Caret-color: Essa propriedade é utilizada para modificar a cor do caret--cursor/indicador--o qual indica a posição onde uma ação será feita em um texto, input, ou qualquer elemento que permita edição.
+	Cursor: Propriedade que garante modificação do cursor quando aponta ou passa sobre um elemento da página.
